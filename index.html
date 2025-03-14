@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Baker Baker</title>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header role="banner">
+        <div id="home">
+            <div class="header">
+                <div class="bakerlogo">
+                    <img src="./images/bakerbakerlogo.svg" alt="baker baker logo">
+                </div>
+                <!-- adding navigation -->
+                <nav class="nav" role="navigation" aria-label="Main Navigation">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="#preordersection">Pre-order Online</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="main-content" class="openingmessage">
+        <p class="opening">At Baker Baker, we believe that every bite should bring comfort, joy and a sense of
+            belonging. From freshly baked treat to cozy surroundings, we&#39;re here to make each visit memorable.
+            We&#39;re not just a bakery, but a pulled together community who cherish fine memories and delicious baked
+            goods. Come on down to Baker Baker — Baking Sweet Treats Into Lasting Memories!</p>
+    </div>
+    <div class="preorderlink">
+        <a href="#">Pre-order your favourites before they&#39;re gone!</a>
+    </div>
+    <div class="banner-container">
+        <div class="top-scallop"></div>
+        <div class="scrolling-banner">
+            <div class="banner-text">
+                Open 7 Days a Week • Always Fresh • Always Hot • Open 7 Days a Week • Always Fresh • Always Hot • Open 7
+                Days a Week • Always Fresh • Always Hot • Open 7 Days a Week • Always Fresh • Always Hot • Open 7 Days a
+                Week • Always Fresh • Always Hot • Open 7 Days a Week • Always Fresh • Always Hot • Open 7 Days a Week •
+                Always Fresh • Always Hot • Open 7 Days a Week • Always Fresh • Always Hot •
+            </div>
+        </div>
+        <div class="bottom-scallop"></div>
+    </div>
+
+    <div class="welcome">
+        <picture>
+            <!-- desktop screen -->
+            <source srcset="
+                            ./images/cookietrayy.png, 
+                            ./images/cookietrayy-1027x373.png 2x, 
+                            ./images/cookietrayy-514x186.png 3x" media="(min-width: 1028px)">
+
+            <!--tablet screen -->
+            <source srcset="
+                            ./images/cookietrayy-800x400.png, 
+                            ./images/cookietrayy-533x267.png 2x, 
+                            ./images/cookietrayy-267x133.png 3x" media="(min-width: 768px)">
+
+            <!-- mobile screens -->
+            <img src="./images/cookietrayy-393x252.png" srcset="
+                            ./images/cookietrayy-393x252.png, 
+                            ./images/cookietrayy-262x168.png 2x, 
+                            ./images/cookietrayy-131x84.png 3x" alt="A tray of delicious cookies" width="393"
+                height="252" style="width: 100%; height: auto;">
+        </picture>
+    </div>
+
+
+    <section class="mission">
+        <div class="bakerlogo2">
+            <img src="./images/bakerbakerlogo2.svg" alt="baker baker logo">
+        </div>
+        <div class="missionstatement">
+            <p>At Baker Baker, our mission is to create a warm, inviting space that feels like home a place where our
+                fresh-baked goods hug you like grandma&#39;s hand-knitted sweater. Whether you&#39;re here for a tasty
+                pain au chocolat, a Sunday matcha rest with friends or a comfortable study space, Baker Baker is the
+                Bakery for you. For all!</p>
+
+            <div class="cookie-container">
+                <picture>
+                    <!-- desktop screen -->
+                    <source srcset="./images/fullpandacookie.svg" media="(min-width: 1024px)">
+
+                    <!-- tablet screen -->
+                    <source srcset="./images/fullpandacookie.svg" media="(min-width: 768px)">
+
+                    <!-- mobile screens (default) -->
+                    <img src="./images/panadacookie.png" alt="decorative cookie panda with circular text"
+                        style="max-width: 100%; height: auto;">
+                </picture>
+            </div>
+        </div>
+    </section>
+    <section class="pastries-section" role="region" aria-labelledby="our-pastries">
+        <h2 id="our-pastries">Our Lovely Pastries</h2>
+        <div class="scroll-container">
+            <img src="./images/food1.png" alt="Cherry Pie" width="500" height="340">
+            <img src="./images/food2.png" alt="Pain du Chocolat" width="500" height="340">
+            <img src="./images/food3.png" alt="Crossaint" width="500" height="340">
+            <img src="./images/food4.png" alt="Cinnamon Bun" width="500" height="340">
+            <img src="./images/food5.png" alt="Matcha" width="500" height="340">
+        </div>
+    </section>
+    <section class="socials" role="contentinfo" aria-labelledby="social-media">
+        <img src="./images/oven612x612.png" alt="oven">
+        <div class="socialmedia">
+            <p id="social-media">Follow us on our socials and show us the foodie in you! Tag us</p>
+            <p>@bakerbakerbakery</p>
+            <div class="icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+        </div>
+        <img src="./images/breadstack612x612.png" alt="bread stack">
+    </section>
+    <footer>
+        <img src="./images/footerdrawing.svg" alt="footer drawing">
+        <div class="footerinfo">
+            <p>123 Maplewood Lane, Ottawa, On K0E 1A2</p>
+            <p>Monday - Thursday: 6am - 4pm</p>
+            <p>Friday - Saturday: 8am - 9pm</p>
+            <p>(+1) 613-xxx-xxxx</p>
+        </div>
+        <div class="action">
+            <p>Our Story</p>
+            <p>Join The Team</p>
+            <p>Contact</p>
+            <p>Pre-Order</p>
+        </div>
+        <hr>
+        <p class="copyright">&copy; Baker Baker</p>
+    </footer>
+</body>
+
+</html>

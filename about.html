@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Baker Baker</title>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link" role="link">Skip to main content</a>
+    <header role="banner">
+        <div id="home">
+            <div class="header">
+                <div class="bakerlogo">
+                    <img src="./images/bakerbakerlogo.svg" alt="baker baker logo">
+                </div>
+                <!-- adding navigation -->
+                <nav class="nav" role="navigation">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="#preordersection">Pre-order Online</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="content" role="main">
+        <h1>Baking Sweet Treats Into Lasting Memories</h1>
+
+        <div class="whisk-icon">
+            <img src="./images/redwhisk.svg" alt="whisk icon">
+        </div>
+
+        <section class="cookiebanner">
+            <picture>
+                <!-- desktop screen -->
+                <source srcset="
+                        ./images/cookies-1027x.jpg, 
+                        ./images/cookies-685x.jpg 2x, 
+                        ./images/cookies-342x.jpg 3x" media="(min-width: 1027px)">
+
+                <!--tablet screen -->
+                <source srcset="
+                        ./images/cookies-800x.jpg, 
+                        ./images/cookies-533x.jpg 2x, 
+                        ./images/cookies-267x.jpg 3x" media="(min-width: 768px)">
+
+                <!-- mobile screens -->
+                <img srcset="
+                        ./images/cookies-393x.jpg, 
+                        ./images/cookies-262x.jpg 2x, 
+                        ./images/cookies-131x.jpg 3x" src="cookies" width="393" style="width: 100%; height: auto;"
+                    alt="cookies">
+            </picture>
+        </section>
+    </div>
+
+    <section class="aboutus">
+
+        <div class="story" id="main-content">
+            <h2>Our Story!</h2>
+            <p>“Baker Baker” is a bakery, cafe, and lounge area that is all in one! The name “Baker Baker” is a play on
+                aptronym that is present in our head chef Taylor Baker&#39;s name. We strive to be a place of community
+                offering long business hours and tasty treats to keep your day going. Our head chef Taylor Baker has had
+                a
+                love for baking since she was a child. Baking for her family then her friends and eventually she knew
+                she
+                wanted to feed the world.</p>
+        </div>
+        <div class="aboutpics">
+            <img src="./images/taylorbread.png" alt="taylor baker">
+        </div>
+    </section>
+    <div class="footer-container">
+        <div class="piepanda">
+            <img src="./images/pandapie.svg" alt="panda pie drawing">
+        </div>
+        <footer>
+            <img src="./images/footerdrawing.svg" alt="footer drawing">
+            <div class="footerinfo">
+                <p>123 Maplewood Lane, Ottawa, On K0E 1A2</p>
+                <p>Monday - Thursday: 6am - 4pm</p>
+                <p>Friday - Saturday: 8am - 9pm</p>
+                <p>(+1) 613-xxx-xxxx</p>
+            </div>
+            <div class="action">
+                <p>Our Story</p>
+                <p>Join The Team</p>
+                <p>Contact</p>
+                <p>Pre-Order</p>
+            </div>
+            <hr>
+            <p class="copyright">&copy; Baker Baker</p>
+        </footer>
+    </div>
+</body>
+
+</html>

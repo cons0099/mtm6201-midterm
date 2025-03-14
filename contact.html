@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Baker Baker</title>
+
+    <!-- schema for local business -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Bakery",
+            "name": "Baker Baker",
+            "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Maplewood Lane",
+            "addressLocality": "Ottawa",
+            "addressRegion": "ON",
+            "postalCode": "K0E 1A2",
+            "addressCountry": "CA"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-613-xxx-xxxx"
+            },
+            "sameAs": [
+                "https://www.instagram.com/bakerbakerbakery",
+                "https://www.tiktok.com/@bakerbakerbakery",
+                "https://www.facebook.com/bakerbakerbakery",
+                "https://twitter.com/bakerbakerbakery"
+            ],
+            "openingHours": [
+                "Mo-Th 06:00-16:00",
+                "Fr-Sa 08:00-21:00"
+            ],
+            "url": "https://www.bakerbakerbakery.com",
+            "description": "Baker Baker is a bakery offering a variety of freshly baked treats in a warm, welcoming atmosphere."
+        }
+    </script>
+
+    <!-- contact schema -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "mainEntity": {
+                "@type": "Organization",
+                "name": "Baker Baker",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+1-613-xxx-xxxx",
+                    "contactType": "Customer Service",
+                    "areaServed": "CA",
+                    "availableLanguage": "English"
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link" role="link">Skip to main content</a>
+    <header role="banner">
+        <div id="home">
+            <div class="header">
+                <div class="bakerlogo">
+                    <img src="./images/bakerbakerlogo.svg" alt="baker baker logo">
+                </div>
+                <!-- adding navigation -->
+                <nav class="nav" role="navigation">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="#preordersection">Pre-order Online</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="contact-section">
+        <div class="mitt-container">
+            <img src="./images/ovenmitt.svg" alt="oven mitt drawing">
+        </div>
+
+        <div class="contact-box" id="main-content" role="main">
+            <div class="contact-info">
+                <h3>Hey over there!</h3>
+                <p>contact us</p>
+                <p>(+1) 613-xxx-xxxx</p>
+                <p>bakerbaker@bakery.ca</p>
+
+                <div class="social-links">
+                    <p><i class="fa-brands fa-facebook-f" aria-label="Facebook"></i> bakerbakerbakery</p>
+                    <p><i class="fa-brands fa-instagram" aria-label="Instagram"></i> bakerbakerbakery</p>
+                    <p><i class="fa-brands fa-tiktok" aria-label="TikTok"></i> bakerbakerbakery</p>
+                    <p><i class="fa-brands fa-x-twitter" aria-label="Twitter"></i> bakerbakerbakery</p>
+                </div>
+            </div>
+
+            <div class="bread-image">
+                <img src="./images/bakedbread.jpg" alt="baked bread" role="img">
+            </div>
+        </div>
+
+        <div class="green-bottom">
+        </div>
+        <div class="matchapanda">
+            <img src="./images/matchapanda.svg" alt="matcha panda drawing" role="img">
+        </div>
+    </div>
+
+    <footer role="contentinfo">
+        <img src="./images/footerdrawing.svg" alt="footer drawing">
+        <div class="footerinfo">
+            <p>123 Maplewood Lane, Ottawa, On K0E 1A2</p>
+            <p>Monday - Thursday: 6am - 4pm</p>
+            <p>Friday - Saturday: 8am - 9pm</p>
+            <p>(+1) 613-xxx-xxxx</p>
+        </div>
+        <hr>
+        <p class="copyright">&copy; Baker Baker</p>
+    </footer>
+</body>
+
+</html>
